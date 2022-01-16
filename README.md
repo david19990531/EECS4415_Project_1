@@ -131,7 +131,7 @@ Given a collection of businesses in a file `/path-to-file/filename.json`, a two-
 
 
 
-    (3) Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
+    (3) Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. The chart should be properly labeled. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
 
 
 We use the original file provided by Kaggle ([*yelp_academic_dataset_business.json*](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3?select=yelp_academic_dataset_business.json)) for evaluation.
