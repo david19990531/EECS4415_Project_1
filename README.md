@@ -11,7 +11,7 @@ This assignment involves performing basic analytics on a large-scale dataset usi
 It was originally put together for the Yelp Dataset Challenge, which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset consists of five JSON files, which contain information about businesses across 8 metropolitan areas in the USA and Canada.
 The dataset can be found and downloaded [here](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3) (registration to Kaggle is required).
 
-In this assignment, you will write four Python scripts/programs. The first program (*dstats.py) performs descriptive analytics of the dataset. The second (*dist.py*) computes useful frequency distributions. The third (*network.py*) constructs a social network of Yelp friends. The fourth (*graph.py*) performs basic network analytics.
+In this assignment, you will write four Python scripts/programs. The first program (*dstats.py*) performs descriptive analytics of the dataset. The second (*dist.py*) computes useful frequency distributions. The third (*network.py*) constructs a social network of Yelp friends. The fourth (*graph.py*) performs basic network analytics.
 
 ## Implementation
 * Clone this repository and implement your solution in each corresponding file. 
@@ -165,11 +165,11 @@ We use the original file provided by Kaggle ([*yelp_academic_dataset_user.json*]
 
 Your script should be run as follows:
 ```
-python3 network.py /path-to-file/filename.json n
+$ python3 network.py /path-to-file/filename.json n
 ```
 For example, the following command should create the social network of Yelp friends among Yelp users who have received no less than 100 useful votes.
 ```
-python3 network.py yelp_academic_dataset_user.json 100
+$ python3 network.py yelp_academic_dataset_user.json 100
 ```
 
 ## Q4. Compute Network Statistics (20%, 5% each)
