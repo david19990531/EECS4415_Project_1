@@ -47,7 +47,7 @@ EECS4415_Project_1/
 ```
 You should strictly follow the specified directory structure. Implementations that do not follow the correct directory structure will be marked as 0.
 
-**Note:** Please note that you should not submit any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
+**Note:** Please note that you should not include any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
 
 ## Evaluation
 An automated judge will programmatically evaluate the majority part of your solution. TAs will assess the parts that cannot be programmatically judged (e.g., charts and code comments). Please refer to each question for the detailed breakdown of project marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0.
@@ -87,7 +87,7 @@ Sample output (*Q1.out*):
 ## Q2. Distribution Statistics (30%, 10% each)
 Given a collection of businesses in a file `/path-to-file/filename.json`, a two-letter state/province abbreviation `ST` (case-sensitive), and a name of a city `city` (case-sensitive), write a Python script (*dist.py*) that performs the following tasks:
 
-* (1) For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of restaurants in each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
+    (1) For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of restaurants in each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
 
     Write the **top-10** categories to a text file named ***Q2_part1.out*** in the **current working directory**. The output should be one line per pair of values as follows:
     ```
