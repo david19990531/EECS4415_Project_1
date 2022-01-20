@@ -47,7 +47,7 @@ EECS4415_Project_1/
 ```
 You should strictly follow the specified directory structure. Implementations that do not follow the correct directory structure will be marked as 0.
 
-**Note:** Please note that you should not include any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
+**Hint:** Please note that you should not include any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
 
 ## Evaluation
 An automated judge will programmatically evaluate the majority part of your solution. TAs will assess the parts that cannot be programmatically judged (e.g., charts and code comments). Please refer to each question for the detailed breakdown of project marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0.
@@ -88,7 +88,6 @@ Sample output (*Q1.out*):
 Given a collection of businesses in a file `/path-to-file/filename.json`, a two-letter state/province abbreviation `ST` (case-sensitive), and a name of a city `city` (case-sensitive), write a Python script (*dist.py*) that performs the following tasks:
 
 1. For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of restaurants in each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
-
 Write the **top-10** categories to a text file named ***Q2_part1.out*** in the **current working directory**. The output should be one line per pair of values as follows:
     ```
     category:#restaurants
@@ -108,7 +107,6 @@ Write the **top-10** categories to a text file named ***Q2_part1.out*** in the *
     ```
 
 2. For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
-    
 Write the top-10 most reviewed categories in descending order (from the most reviewed category to the least reviewed) to a text file named ***Q2_part2.out*** in the **current working directory**. The output should be one line per triplet as follows:
     ```
     category:#restaurants:average_review_count
@@ -128,20 +126,17 @@ Write the top-10 most reviewed categories in descending order (from the most rev
     ```
 
 3. Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. The chart should be properly labeled. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
-
-
 We use the original file provided by Kaggle ([*yelp_academic_dataset_business.json*](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3?select=yelp_academic_dataset_business.json)) for evaluation.
-
 Your script should be run as follows:
-```
-$ python3 dist.py /path-to-file/filename.json city ST
-```
-For example:
-```
-$ python3 dist.py yelp_academic_dataset_business.json Vancouver BC
-```
+    ```
+    $ python3 dist.py /path-to-file/filename.json city ST
+    ```
+    For example:
+    ```
+    $ python3 dist.py yelp_academic_dataset_business.json Vancouver BC
+    ```
 
-Hint: Use the [*matplotlib*](https://matplotlib.org/stable/index.html) package to create the plot. You can follow this [tutorial](https://matplotlib.org/stable/plot_types/basic/bar.html#sphx-glr-plot-types-basic-bar-py) about using *matplotlib* to create a bar chart.
+**Hint:** Use the [*matplotlib*](https://matplotlib.org/stable/index.html) package to create the plot. You can follow this [tutorial](https://matplotlib.org/stable/plot_types/basic/bar.html#sphx-glr-plot-types-basic-bar-py) about using *matplotlib* to create a bar chart.
 
 ## Q3. Creating the Yelp Social Network (20%)
 The social network will be represented as a graph G(V,E), where V is a set of vertices representing the Yelp users and E is a set of edges representing friendships between Yelp users.
