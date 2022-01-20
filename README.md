@@ -46,6 +46,7 @@ EECS4415_Project_1/
 ├─ .gitignore
 ```
 You should strictly follow the specified directory structure. Implementations that do not follow the correct directory structure will be marked as 0.
+Please note that you should not submit any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
 
 ## Evaluation
 An automated judge will programmatically evaluate the majority part of your solution. TAs will assess the parts that cannot be programmatically judged (e.g., charts and code comments). Please refer to each question for the detailed breakdown of project marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0.
