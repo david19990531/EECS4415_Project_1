@@ -1,11 +1,10 @@
 # EECS4415-Big Data Systems: Project 1 (10%)
 
-**Single Machine Data Analytics using Python**
-
+**Title:** Single Machine Big Data Analytics using Python Language   
 **Start:** January 24, 2022, @ 9:00am EST   
 **Due:** February 7, 2022, by 9:00pm EST
 
-## Objective
+## Objectives
 
 This project involves performing basic analytics on a large-scale dataset using Python on a single machine. The dataset is a subset of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge, which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset consists of five JSON files, which contain information about businesses across 8 metropolitan areas in the USA and Canada.
 The dataset can be found and downloaded [here](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3) (registration to Kaggle is required).
