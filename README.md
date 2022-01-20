@@ -30,7 +30,7 @@ Important notes:
 
 
 ## Submission
-You need to zip the repository and submit one zip file with the name of *project1.zip* on eClass by the due date. The directory structure in *project1.zip* should look like this:
+You need to zip your repository and submit as one zip file with the name of *project1.zip* on eClass by the due date. The directory structure in *project1.zip* should look like this:
 
 ```
 EECS4415_Project_1/
