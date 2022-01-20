@@ -46,6 +46,7 @@ EECS4415_Project_1/
 ├─ .gitignore
 ```
 You should strictly follow the specified directory structure. Implementations that do not follow the correct directory structure will be marked as 0.
+
 **Note:** Please note that you should not submit any output files in your submission. We will execute your codes to generate the outputs and then compare with the correct answers.
 
 ## Evaluation
