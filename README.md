@@ -80,7 +80,6 @@ Sample output (*Q1.out*):
 3.51
 41.63
 69.26
-
 ```
 
 ## Q2. Distribution Statistics (30%, 10% each)
@@ -104,7 +103,6 @@ Given a collection of businesses in a file `/path-to-file/filename.json`, a two-
     Asian Fusion:177
     Mediterranean:149
     Indian:144
-    
     ```
 
     (2) For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
@@ -125,10 +123,7 @@ Given a collection of businesses in a file `/path-to-file/filename.json`, a two-
     Asian Fusion:12416:70.15
     Middle Eastern:11849:101.27
     French:11735:126.18
-
     ```
-
-
 
     (3) Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. The chart should be properly labeled. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
 
@@ -153,7 +148,6 @@ The graph/network should be represented in a file using the edge list format. An
 a1 a2
 a2 a3
 a3 a1
-
 ```
 Note that the order of the lines does not matter, and edges are bidirectional (so either *"a1 a2"* or *"a2 a1"* should be listed but NOT both).
 
@@ -185,7 +179,6 @@ The output (Q4.out) should be one line per answer to the question as follows:
 avgNodeDegree
 #components
 #triangles
-
 ```
 For example:
 ```
@@ -193,7 +186,6 @@ For example:
 182.53
 3
 10116817
-
 ```
 
 Your script should be run as follows:
