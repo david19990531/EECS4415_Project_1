@@ -2,8 +2,8 @@
 
 **Data Analytics using Python (10%)**
 
-**Start:** February 1, 2022, at 9:00 am EST   
-**Due:** February 15, 2022, at 9:00 pm EST
+**Start:** January 24, 2022, at 9:00 am EST   
+**Due:** February 7, 2022, at 9:00 pm EST
 
 ## Objective
 
