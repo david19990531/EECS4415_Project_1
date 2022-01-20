@@ -20,7 +20,6 @@ In this project, you will write four Python scripts/programs. The first program 
     Foo
     Bar
     123456789
-
     ```
 * Write the dependencies of your solution into *requirements.txt* in requirements format (using the [`pip freeze`](https://pip.pypa.io/en/stable/cli/pip_freeze/) command).
 * All scripts are to be written using Python >= 3.7.0.
