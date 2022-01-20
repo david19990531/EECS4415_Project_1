@@ -1,14 +1,13 @@
-# EECS 4415 Project 1
+# EECS4415-Big Data Systems: Project 1 (10%)
 
-**Data Analytics using Python (10%)**
+**Single Machine Data Analytics using Python**
 
-**Start:** January 24, 2022, at 9:00 am EST   
-**Due:** February 7, 2022, at 9:00 pm EST
+**Start:** January 24, 2022, @ 9:00am EST   
+**Due:** February 7, 2022, by 9:00pm EST
 
 ## Objective
 
-This project involves performing basic analytics on a large-scale dataset using Python. The dataset is a subset of Yelp's businesses, reviews, and user data. 
-It was originally put together for the Yelp Dataset Challenge, which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset consists of five JSON files, which contain information about businesses across 8 metropolitan areas in the USA and Canada.
+This project involves performing basic analytics on a large-scale dataset using Python on a single machine. The dataset is a subset of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge, which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset consists of five JSON files, which contain information about businesses across 8 metropolitan areas in the USA and Canada.
 The dataset can be found and downloaded [here](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3) (registration to Kaggle is required).
 
 In this project, you will write four Python scripts/programs. The first program (*dstats.py*) performs descriptive analytics of the dataset. The second (*dist.py*) computes useful frequency distributions. The third (*network.py*) constructs a social network of Yelp friends. The fourth (*graph.py*) performs basic network analytics.
