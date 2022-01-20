@@ -1,4 +1,4 @@
-# EECS 4415 Assignment 1
+# EECS 4415 Project 1
 
 **Data Analytics using Python (10%)**
 
@@ -7,11 +7,11 @@
 
 ## Objective
 
-This assignment involves performing basic analytics on a large-scale dataset using Python. The dataset is a subset of Yelp's businesses, reviews, and user data. 
+This project involves performing basic analytics on a large-scale dataset using Python. The dataset is a subset of Yelp's businesses, reviews, and user data. 
 It was originally put together for the Yelp Dataset Challenge, which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset consists of five JSON files, which contain information about businesses across 8 metropolitan areas in the USA and Canada.
 The dataset can be found and downloaded [here](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3) (registration to Kaggle is required).
 
-In this assignment, you will write four Python scripts/programs. The first program (*dstats.py*) performs descriptive analytics of the dataset. The second (*dist.py*) computes useful frequency distributions. The third (*network.py*) constructs a social network of Yelp friends. The fourth (*graph.py*) performs basic network analytics.
+In this project, you will write four Python scripts/programs. The first program (*dstats.py*) performs descriptive analytics of the dataset. The second (*dist.py*) computes useful frequency distributions. The third (*network.py*) constructs a social network of Yelp friends. The fourth (*graph.py*) performs basic network analytics.
 
 ## Implementation
 * Clone this repository and implement your solution in each corresponding file. 
@@ -33,10 +33,10 @@ Important notes:
 
 
 ## Submission
-You need to zip the repository and submit one zip file with the name of *assignment1.zip* on eClass by the due date. The directory structure in *assignment1.zip* should look like this:
+You need to zip the repository and submit one zip file with the name of *project1.zip* on eClass by the due date. The directory structure in *project1.zip* should look like this:
 
 ```
-EECS4415_Assignment_1/
+EECS4415_Project_1/
 ├─ dstats.py
 ├─ dist.py
 ├─ network.py
@@ -49,7 +49,7 @@ EECS4415_Assignment_1/
 You should strictly follow the specified directory structure. Implementations that do not follow the correct directory structure will be marked as 0.
 
 ## Evaluation
-An automated judge will programmatically evaluate the majority part of your solution. TAs will assess the parts that cannot be programmatically judged (e.g., charts and code comments). Please refer to each question for the detailed breakdown of assignment marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0.
+An automated judge will programmatically evaluate the majority part of your solution. TAs will assess the parts that cannot be programmatically judged (e.g., charts and code comments). Please refer to each question for the detailed breakdown of project marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0.
 
 ## Q1. Descriptive Statistics (30%, 5% each)
 Given a collection of businesses in a file `/path-to-file/filename.json`, a two-letter state/province abbreviation `ST` (case-sensitive), and a name of a city `city` (case-sensitive), write a Python script (*dstats.py*) that computes and writes the answer to a text file named ***Q1.out*** in the **current working directory**. The file *Q1.out* consists of six line-separated numbers as follows:
