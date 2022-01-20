@@ -87,7 +87,7 @@ Sample output (*Q1.out*):
 ## Q2. Distribution Statistics (30%, 10% each)
 Given a collection of businesses in a file `/path-to-file/filename.json`, a two-letter state/province abbreviation `ST` (case-sensitive), and a name of a city `city` (case-sensitive), write a Python script (*dist.py*) that performs the following tasks:
 
-(1) For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of restaurants in each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
+1. For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of restaurants in each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
 
 Write the **top-10** categories to a text file named ***Q2_part1.out*** in the **current working directory**. The output should be one line per pair of values as follows:
     ```
@@ -107,7 +107,7 @@ Write the **top-10** categories to a text file named ***Q2_part1.out*** in the *
     Indian:144
     ```
 
-(2) For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
+2. For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
     
 Write the top-10 most reviewed categories in descending order (from the most reviewed category to the least reviewed) to a text file named ***Q2_part2.out*** in the **current working directory**. The output should be one line per triplet as follows:
     ```
@@ -127,7 +127,7 @@ Write the top-10 most reviewed categories in descending order (from the most rev
     French:11735:126.18
     ```
 
-(3) Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. The chart should be properly labeled. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
+3. Create a bar chart that shows the **top-5** (NOT top-10) restaurant categories identified in part (1), where the x-axis represents the restaurant category, and the y-axis represents its frequency (#restaurants). The size of the bar chart should be **10-inch-by-10-inch**. The chart should be properly labeled. Save the plot as a **PDF** file named ***Q2_part3.pdf*** in the **current working directory**.
 
 
 We use the original file provided by Kaggle ([*yelp_academic_dataset_business.json*](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3?select=yelp_academic_dataset_business.json)) for evaluation.
