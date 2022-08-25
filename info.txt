@@ -1,3 +1,3 @@
-first name
-last name
-9-digit student ID
+Changhong
+He
+215873201
