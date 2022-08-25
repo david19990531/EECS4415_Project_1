@@ -107,7 +107,7 @@ Write the **top-10** categories to a text file named ***Q2_part1.out*** in the *
 2. For all restaurants in the `city`, `ST`, compute the frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Japanese, Chinese, Canadian, Italian, etc.). Your script should only consider restaurant categories that are based on geographical origin. For example, "Mediterranean" is a legit restaurant category while "Sandwiches" is not. Please note that a restaurant can fall into multiple categories.
 Write the top-10 most reviewed categories in descending order (from the most reviewed category to the least reviewed) to a text file named ***Q2_part2.out*** in the **current working directory**. The output should be one line per triplet as follows:
     ```
-    category:#restaurants:average_review_count
+    category:#reviews:average_review_count
     ```
     For example:
     ```
@@ -147,7 +147,7 @@ a3 a1
 Note that the order of the lines does not matter, and edges are bidirectional (so either *"a1 a2"* or *"a2 a1"* should be listed but NOT both).
 
 
-Given a collection of users in a file `/path-to-file/filename.json` and an integer `n` (n >= 100), write a Python script (*network.py*) that creates the social network of Yelp friends among Yelp users who have received **no less than `n` useful votes**, and writes the edge list of the created graph to a text file named **Q3.out** in the **current working directory**. Your script should only consider Yelp users who have received no less than `n` useful votes. For example, users *a1* and *a2* are friends, who have *n+1* and *n-1* useful votes, respectively. In this case, neither *"a1 a2"* nor *"a2 a1"* should be listed.
+Given a collection of users in a file `/path-to-file/filename.json` and an integer `n` (n >= 100), write a Python script (*network.py*) that creates the social network of Yelp friends among Yelp users who sent **no less than `n` useful votes**, and writes the edge list of the created graph to a text file named **Q3.out** in the **current working directory**. Your script should only consider Yelp users who sent no less than `n` useful votes. For example, users *a1* and *a2* are friends, who sent *n+1* and *n-1* useful votes, respectively. In this case, neither *"a1 a2"* nor *"a2 a1"* should be listed.
 
 We use the original file provided by Kaggle ([*yelp_academic_dataset_user.json*](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/3?select=yelp_academic_dataset_user.json)) for evaluation.
 
@@ -155,7 +155,7 @@ Your script should be run as follows:
 ```
 $ python3 network.py /path-to-file/filename.json n
 ```
-For example, the following command should create the social network of Yelp friends among Yelp users who have received no less than 100 useful votes.
+For example, the following command should create the social network of Yelp friends among Yelp users who sent no less than 100 useful votes.
 ```
 $ python3 network.py yelp_academic_dataset_user.json 100
 ```
